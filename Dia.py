@@ -17,6 +17,7 @@ class Dia:
     
     
   # metodo set y get
+	#holaGuapo
   
   
   def getDia(self):
@@ -24,5 +25,5 @@ class Dia:
   
   def setDia(self, d):
     self.__dia = d
-# Holi my dog
-  
+
+    # Holi my dog
