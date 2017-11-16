@@ -15,7 +15,13 @@ class Dia:
   def sonIguales(self, otroDia):
     # nada por aca
     
-    
+  def esMayor(self, otroDia):
+    pass
+    #ESTE ES UN COMENTARIO
+    """
+    ESTE ES OTRO COMENTARIO
+    """
+  
   # metodo set y get
   
   
