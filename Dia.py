@@ -17,6 +17,7 @@ class Dia:
     
     
   # metodo set y get
+	#holaGuapo
   
   
   def getDia(self):
