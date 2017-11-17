@@ -28,14 +28,14 @@ class Dia:
       return str(self.__dia) + "/"+ str(self.__mes) + "/" + str(self.__anio)
   
   # metodo set y get
-  
+ 
   
   def getDia(self):
     return self.__dia
   
   def setDia(self, d):
     self.__dia = d
-    
+
     
     
 # esto seria el main
@@ -43,4 +43,4 @@ print("Calculdora de fechas bienvenido")
 d = Dia(11,11,2017)
 print("el dia " + d.toString())
     
-  
+
