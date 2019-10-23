@@ -43,3 +43,22 @@ class Dia:
 print("Calculdora de fechas bienvenido")
 d = Dia(11,11,2017)
 print("el dia " + d.toString())
+
+
+
+#Comparar fechas
+
+fechaD=input("Ingrese la fecha de entrega (ddmmyyyy): ")
+fechaD=fechaD.strip()
+Largofecha=len(fechaD)
+if(Largofecha>0 and Largofecha==8):
+	ahora = time.strftime("%d-%m-%Y")
+	dtfechaD=datetime.strptime(fechaD, "%d%m%Y")
+	fechaFinal=dtfechaD.strftime("%d-%m-%Y")
+	print(fechaFinal)
+	if(fechaFinal>=ahora):
+		print("si")
+	else:
+		print("no")
+else:
+	print("error: ingrese bien la fecha")
